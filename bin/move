@@ -8,5 +8,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
 input = input_to_index(user_input)
-move(array, index, position = "X")
+board = move(array, index, position = "X")
 display_board(board)
