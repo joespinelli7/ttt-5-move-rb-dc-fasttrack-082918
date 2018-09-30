@@ -9,4 +9,3 @@ puts "Where would you like to go?"
 puts "Where would you like to go?"
 input_here = gets.strip
 index = input_to_index(input_here)
-move
